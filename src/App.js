@@ -3,17 +3,27 @@ import Main from "./components/Main";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  height: 100%;
+  /* height: 100vh; */
+  /* background-color: magenta; */
 `;
 
 const LeftBg = styled.div`
-  background-color: hsl(271, 36%, 24%);
+  background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
   border-radius: 0px 0px 250px 250px;
   position: absolute;
   top: 0;
-  left: -70px;
+  left: -5%;
   width: 35%;
   height: 90%;
+  @media (max-width: 69em) {
+    left: -10%;
+    top: -0%;
+  }
+  @media (max-width: 45em) {
+    border-radius: 0px 0px 200px 200px;
+    height: 70%;
+    width: 60%;
+  }
 `;
 const RightBg = styled.div`
   background-color: hsl(270, 20%, 96%);
@@ -23,6 +33,18 @@ const RightBg = styled.div`
   right: -10%;
   width: 35%;
   height: 90%;
+  opacity: 0.4;
+  @media (max-width: 69em) {
+    right: -15%;
+    bottom: -0%;
+  }
+  @media (max-width: 45em) {
+    border-radius: 200px 200px 0px 0px;
+    height: 70%;
+    width: 60%;
+
+
+  }
 `;
 
 function App() {
