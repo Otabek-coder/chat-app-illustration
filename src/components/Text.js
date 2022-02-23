@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   max-width: 400px;
-  margin: auto 30px;
+
   z-index: 3;
   .title {
     font-weight: 700;
@@ -12,13 +12,12 @@ const Wrapper = styled.div`
   }
   .text {
     font-weight: 500;
-
     font-size: 1rem;
     line-height: 1.5;
     color: hsl(270, 7%, 64%);
   }
   @media (max-width: 69em) {
-    margin: auto 0px;
+    margin-left: auto;
   }
   @media (max-width: 49em) {
     max-width: 50%;
@@ -26,6 +25,7 @@ const Wrapper = styled.div`
   @media (max-width: 45em) {
     text-align: center;
     max-width: 70%;
+    margin-left: 0;
   }
 `;
 function Text() {

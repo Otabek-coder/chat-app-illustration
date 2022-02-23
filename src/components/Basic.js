@@ -3,16 +3,15 @@ import Phone from "./Phone";
 import Text from "./Text";
 import styled from "styled-components";
 const Wrapper = styled.div`
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  /* justify-content: space-between; */
   width: 60%;
   margin: auto;
 
   @media (max-width: 69em) {
     width: 70%;
-    justify-content: space-between;
   }
   @media (max-width: 49em) {
     width: 90%;
