@@ -3,7 +3,7 @@ import Main from "./components/Main";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  /* height: 100vh; */
+  height: 100vh;
   /* background-color: magenta; */
 `;
 
@@ -40,7 +40,7 @@ const RightBg = styled.div`
   }
   @media (max-width: 45em) {
     border-radius: 200px 200px 0px 0px;
-    height: 70%;
+    height: 30%;
     width: 60%;
 
 

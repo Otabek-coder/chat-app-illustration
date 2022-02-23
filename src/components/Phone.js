@@ -5,6 +5,7 @@ import { GrMoreVertical } from "react-icons/gr";
 import { IoIosArrowForward } from "react-icons/io";
 
 const Wrapper = styled.div`
+  background-color: #fff;
   border: 10px solid #fff;
   border-radius: 25px;
   overflow: hidden;
