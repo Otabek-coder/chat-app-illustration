@@ -8,19 +8,32 @@ const Wrapper = styled.div`
   border: 10px solid #fff;
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 3px 9px 14px -3px rgba(0, 0, 0, 0.48);
+  box-shadow: 3px 10px 35px rgba(0, 0, 0, 0.125);
   margin: 0px 80px;
   z-index: 3;
   min-width: 250px;
   height: 510px;
+  @media (max-width: 69em) {
+    margin: 0px 40px;
+  }
+  @media (max-width: 49em) {
+    margin: 0;
+  }
+  @media (max-width: 45em) {
+    margin-bottom: 4em;
+  }
 `;
 const Heading = styled.div`
+  background: linear-gradient(
+    to right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 70px;
   padding: 0px 8px 8px 8px;
-  background-color: magenta;
 
   .ear-phone {
     height: 30px;
@@ -74,6 +87,7 @@ const Container = styled.div`
     padding: 8px;
     margin: 10px 0px;
     border-radius: 10px 10px 10px 3px;
+    box-shadow: 0 2px 10px rgba(3, 2, 2, 0.105);
     width: 60%;
     background-color: hsl(276, 100%, 95%);
     color: hsl(276, 55%, 52%);
@@ -81,6 +95,7 @@ const Container = styled.div`
   .right-message {
     background-color: #fff;
     border-radius: 10px 10px 3px 10px;
+    box-shadow: 0 2px 10px rgba(3, 2, 2, 0.105);
     font-weight: 400;
     padding: 8px;
     color: hsl(270, 7%, 64%);
@@ -90,7 +105,7 @@ const Container = styled.div`
   }
   .short {
     text-align: right;
-    width: 47%;
+    width: 40%;
   }
   .left-message-bg {
     display: flex;
@@ -99,7 +114,11 @@ const Container = styled.div`
     margin: 10px 0px;
     border-radius: 10px 10px 10px 3px;
     color: #fff;
-    background-color: hsl(276, 55%, 52%);
+    background: linear-gradient(
+      to right,
+      hsl(293, 100%, 63%),
+      hsl(264, 100%, 61%)
+    );
     width: 80%;
     padding: 10px 15px 10px 10px;
   }
@@ -108,7 +127,7 @@ const Container = styled.div`
     margin-left: 5px;
   }
   .left-message-bg p:last-of-type {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 700;
     margin-left: auto;
   }
@@ -116,7 +135,7 @@ const Container = styled.div`
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    border: .1px solid hsl(289, 100%, 72%);
+    border: 0.1px solid hsl(289, 100%, 72%);
   }
   .text-input {
     width: 100%;

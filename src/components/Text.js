@@ -2,14 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  /* background-color: red; */
   max-width: 400px;
-  margin: auto 0;
+  margin: auto 30px;
   z-index: 3;
   .title {
     font-weight: 700;
     margin-bottom: 1rem;
-    font-size: 3rem;
     color: hsl(271, 36%, 24%);
   }
   .text {
@@ -18,6 +16,16 @@ const Wrapper = styled.div`
     font-size: 1rem;
     line-height: 1.5;
     color: hsl(270, 7%, 64%);
+  }
+  @media (max-width: 69em) {
+    margin: auto 0px;
+  }
+  @media (max-width: 49em) {
+    max-width: 50%;
+  }
+  @media (max-width: 45em) {
+    text-align: center;
+    max-width: 70%;
   }
 `;
 function Text() {
