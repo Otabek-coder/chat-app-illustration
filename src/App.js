@@ -40,7 +40,7 @@ const RightBg = styled.div`
   }
   @media (max-width: 45em) {
     border-radius: 200px 200px 0px 0px;
-    height: 30%;
+    height: 40%;
     width: 60%;
 
 
