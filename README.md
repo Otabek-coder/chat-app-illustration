@@ -1,4 +1,4 @@
-## [Demo Link](https://chat-app-illustration-app.netlify.app/)
+## [Live site url](https://chat-app-illustration-app.netlify.app/)
 ## Desktop Design
 ![desktop-design](https://user-images.githubusercontent.com/65924250/155317687-1e48f9cf-ec1f-49e5-89ad-786f023aea8b.jpg)
 ## Mobile Design
