@@ -15,7 +15,8 @@ const Container = styled.div`
     content: "";
     background-color: hsl(270, 20%, 96%);
     border-radius: 9999em 9999em 0px 0px;
-    position: absolute;
+    position: fixed
+    ;
     bottom: 0;
     right: -10%;
     width: 35%;
