@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   max-width: 400px;
-
   z-index: 3;
   .title {
     font-weight: 700;
@@ -11,6 +10,7 @@ const Wrapper = styled.div`
     color: hsl(271, 36%, 24%);
   }
   .text {
+      max-width:400px;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5;
