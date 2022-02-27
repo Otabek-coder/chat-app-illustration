@@ -15,7 +15,7 @@ const Container = styled.div`
     content: "";
     background-color: hsl(270, 20%, 96%);
     border-radius: 9999em 9999em 0px 0px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: -10%;
     width: 35%;
@@ -26,7 +26,7 @@ const Container = styled.div`
       bottom: -0%;
     }
     @media (max-width: 45em) {
-      height: 40%;
+      height: 50%;
       width: 60%;
     }
   }

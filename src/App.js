@@ -12,7 +12,7 @@ const Wrapper = styled.div`
       hsl(293, 100%, 63%)
     );
     border-radius: 0em 0em 9999em 9999em;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -5%;
     width: 35%;
