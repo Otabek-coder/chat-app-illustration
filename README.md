@@ -2,7 +2,7 @@
 
 
 
-### [challenge url leads to frontend-mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY)
+### [Challenge url that leads to Frontend-mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY)
 ## Desktop Design
 ![desktop-design](https://user-images.githubusercontent.com/65924250/155317687-1e48f9cf-ec1f-49e5-89ad-786f023aea8b.jpg)
 ## Mobile Design
